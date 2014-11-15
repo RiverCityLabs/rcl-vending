@@ -1,0 +1,7 @@
+This directory (/vendingmachine/arduino) contains code/notes for the 
+Arduino portion of the River City Labs Makerspace network-enabled
+vending machine.
+
+The Arduino is used to bridge from the web server (which will probably
+be running on a RasPi), to all of the digital I/O that the machine will
+require. 

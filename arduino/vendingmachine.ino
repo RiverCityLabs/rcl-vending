@@ -1,8 +1,21 @@
-/*
+
+/*  vendingmachine.ino
+ *  Copyright David Denney 2014
+ *
+ *  Released publicly under the GPLv2 license.  
+ *
  *  Code for controlling the outputs on our vending machine.
  *  Supports vending, associating an output pin with a given designation (usually indicating the slot on the machine).
  *  Will eventually support status query response, allowing the connected system to query for what slots are out of stock (useful if this is not tracked on the managing system.
  *
+ */
+
+/*
+ *  Current Issue: Will properly handle a single vend by label command.
+ *  Subsequent commands may get hung up.
+ *  No other commands tested at this time.
+ *
+ * (Mostly committed this so the git repository's readme wouldn't ge lonely.)
  */
  
  
